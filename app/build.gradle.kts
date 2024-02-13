@@ -41,8 +41,12 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    // retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    // gson converter
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    // picasso
+    implementation("com.squareup.picasso:picasso:2.8")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
